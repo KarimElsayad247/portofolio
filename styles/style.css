@@ -64,6 +64,13 @@ body {
     text-align: center;
 }
 
+.social-button:focus {
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: white;
+    outline-style: dashed;
+}
+
 #github-profile {
     background-color: #333333;
     color: white;
@@ -71,11 +78,19 @@ body {
     border-color: white;
 }
 
+#github-profile:hover {
+    background-color: #444444;
+}
+
 #linkedin-profile {
     background-color: #0077b5;
     color: white;
     border-style: solid;
     border-color: white;
+}
+
+#linkedin-profile:hover {
+    background-color: #0087c5;
 }
 
 
