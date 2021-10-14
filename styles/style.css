@@ -44,9 +44,40 @@ body {
     margin-top: 20px;
 }
 
-.socials a {
-    color: #f9faf8;
+.socials ul {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 10px 0px;
 }
+
+.socials ul li {
+    flex: 1 0 0;
+}
+
+.social-button {
+    display: block;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#github-profile {
+    background-color: #333333;
+    color: white;
+    border-style: solid;
+    border-color: white;
+}
+
+#linkedin-profile {
+    background-color: #0077b5;
+    color: white;
+    border-style: solid;
+    border-color: white;
+}
+
 
 .projects {
     padding: 30px 10%;
@@ -61,6 +92,7 @@ body {
 .projects-container {
     padding: 30px 0px;
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
