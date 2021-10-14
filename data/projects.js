@@ -25,5 +25,11 @@ projects = [
         "description": "Deploy simple django web app as a microservice running on docker container locally using a Jenkins pipeline. In the repo there is a pdf report detailing exactly how I went about implementing the pipeline",
         "github": "https://github.com/KarimElsayad247/Booster_CI_CD_Project",
         "live": "none"
+    },
+    {
+        "title": "Portfolio",
+        "description": "This website you're viewing now!",
+        "github": "https://github.com/KarimElsayad247/portofolio",
+        "live": "http://portfolio.karimelsayad.me/"
     }
 ]
