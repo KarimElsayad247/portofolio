@@ -9,7 +9,7 @@ projects = [
     },
     {
         "title": "Browse Courses",
-        "description": "Browse a list of courses sotred in a database, complete with search and paginations",
+        "description": "Browse a list of courses stored in a database, complete with search and paginations",
         "github": "https://github.com/KarimElsayad247/course-browse",
         "live": "http://portfolio.karimelsayad.me/course-browse"
 
