@@ -13,6 +13,14 @@ body {
     background-color: rgb(241, 241, 241);
 }
 
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
 .container {
     /* margin-top: 30px; */
     width: 100%;
@@ -35,9 +43,13 @@ body {
 }
 
 .introduction {
-    padding: 30px 10%;
+    padding: 30px 8%;
     background-color: #1f2937;
     color: #f9faf8;
+}
+
+.introduction p {
+    font-size: 1.3em;
 }
 
 .socials {
@@ -95,12 +107,10 @@ body {
 
 
 .projects {
-    padding: 30px 10%;
+    padding: 80px 2% 30px 8%;
     background-color: #f9faf8;
     color: #1f2937;
 }
-
-
 
 /* This is the section for project cards */
 
