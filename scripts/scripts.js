@@ -37,24 +37,27 @@ function fillProjects() {
         githubLogo.src = "../images/github.png";
         githubLogo.alt = "github logo";
         
-        let liveLink = document.createElement('a');
-        liveLink.href = project.live;   
-
-        let liveLogo = document.createElement('img');
-        liveLogo.src = "../images/antenna.png";
-        liveLogo.alt = "antenna icon";
-
+        
         githubLink.appendChild(githubLogo);
         githubLink.appendChild(document.createTextNode("Github"));
-        liveLink.appendChild(liveLogo);
-        liveLink.appendChild(document.createTextNode("Live!"));
         repoLinkDiv.appendChild(githubLink);
-        liveLinkDiv.appendChild(liveLink);
-
-        
         cardLinksDiv.appendChild(repoLinkDiv);
-        cardLinksDiv.appendChild(liveLinkDiv);
-
+    
+        if (project.live !== "none") {        
+            let liveLink = document.createElement('a');
+            liveLink.href = project.live;   
+            
+            let liveLogo = document.createElement('img');
+            liveLogo.src = "../images/antenna.png";
+            liveLogo.alt = "antenna icon";
+            
+            liveLink.appendChild(liveLogo);
+            liveLink.appendChild(document.createTextNode("Live!"));
+            
+            liveLinkDiv.appendChild(liveLink);
+            
+            cardLinksDiv.appendChild(liveLinkDiv);
+        }
         var list = document.getElementsByClassName("projects-container");
         list[0].appendChild(listItem);
 
