@@ -19,5 +19,11 @@ projects = [
         "description": "Implement the Huffman compression algorithms for an algorithms course. This C++ program is practical and can be readily used to compress text files.",
         "github": "https://github.com/KarimElsayad247/huffman-compression",
         "live": "none"
+    },
+    {
+        "title": "CI/CD",
+        "description": "Deploy simple django web app as a microservice running on docker container locally using a Jenkins pipeline. In the repo there is a pdf report detailing exactly how I went about implementing the pipeline",
+        "github": "https://github.com/KarimElsayad247/Booster_CI_CD_Project",
+        "live": "none"
     }
 ]
