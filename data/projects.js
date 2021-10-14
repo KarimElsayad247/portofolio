@@ -1,5 +1,5 @@
-{
-    "projects" : [
+
+projects = [
     {
         "title": "Landing page",
         "descreption": "A simple landing page using HTML/CSS",
@@ -14,4 +14,3 @@
         "live": "http://portfolio.karimelsayad.me/course-browse"
 
     }]
-}
