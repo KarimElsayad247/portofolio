@@ -114,11 +114,12 @@ h2 {
 
 /* This is the section for project cards */
 
-.projects-container {
+.projects-container {   
     padding: 30px 0px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    row-gap: 60px;
 }
 
 .project-card {
@@ -140,18 +141,28 @@ h2 {
 .project-discription {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     text-align: justify;
     text-justify: distribute;
     hyphens: auto;
     justify-content: center;
-    padding: 20px 20px 20px 20px;
     flex: 1 0 0;
 }
 
+.project-discription h3 {
+    background-color: #063d8a;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
 .project-discription p {
-    padding-top: 5px;
+    padding: 20px 20px 20px 20px;
     margin-bottom: 5px;
+    flex: 1 0 0;
 } 
 
 .card-links {
