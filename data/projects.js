@@ -8,6 +8,12 @@ projects = [
 
     },
     {
+        "title": "Todo App",
+        "description": "A simple in-brower todo app with a keyboard-first philosophy. Made with pure HTML/CSS/Javascript",
+        "github": "https://github.com/KarimElsayad247/todo-planner",
+        "live": "http://karimelsayad.me/todo-planner/"
+    },
+    {
         "title": "Browse Courses",
         "description": "Browse a list of courses stored in a database, complete with search and paginations",
         "github": "https://github.com/KarimElsayad247/course-browse",
