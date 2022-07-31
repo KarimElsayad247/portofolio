@@ -4,20 +4,20 @@ projects = [
         "title": "Landing page",
         "description": "A simple landing page using HTML/CSS",
         "github": "https://github.com/KarimElsayad247/landing-page",
-        "live": "http://karimelsayad.me/landing-page/"
+        "live": "https://karimelsayad247.github.io/landing-page/"
 
     },
     {
         "title": "Todo App",
         "description": "A simple in-brower todo app with a keyboard-first philosophy. Made with pure HTML/CSS/Javascript",
         "github": "https://github.com/KarimElsayad247/todo-planner",
-        "live": "http://karimelsayad.me/todo-planner/"
+        "live": "https://karimelsayad247.github.io/todo-planner/"
     },
     {
         "title": "Browse Courses",
         "description": "Browse a list of courses stored in a database, complete with search and paginations",
         "github": "https://github.com/KarimElsayad247/course-browse",
-        "live": "http://portfolio.karimelsayad.me/course-browse"
+        "live": "http://karimelsayad.me/course-browse"
 
     },
     {
